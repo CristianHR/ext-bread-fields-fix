@@ -4,7 +4,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Cristian HR",
+            "name": "Cristian Hilario Rentera",
             "email": "khristiamr@gmail.com"
         }
     ],
@@ -13,14 +13,14 @@
     },
     "autoload": {
         "psr-4": {
-            "ExtendedBreadFormFieldsFix\\": "src/"
+            "Cristianhr\\ExtBreadFieldsFix\\": "src/"
         }
     },
     "minimum-stability": "dev",
     "extra": {
         "hook": {
             "providers": [
-                "ExtendedBreadFormFieldsFix\\ExtendedBreadFormFieldsFixServiceProvider"
+                "Cristianhr\\ExtBreadFieldsFix\\ExtendedBreadFormFieldsFixServiceProvider"
             ],
             "views": [
                 "resources/views"
