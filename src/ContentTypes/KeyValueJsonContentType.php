@@ -1,6 +1,6 @@
 <?php
 
-namespace ExtendedBreadFormFieldsFix\ContentTypes;
+namespace Cristianhr\ExtBreadFieldsFix\ContentTypes;
 use TCG\Voyager\Http\Controllers\ContentTypes\BaseType;
 
 class KeyValueJsonContentType extends BaseType

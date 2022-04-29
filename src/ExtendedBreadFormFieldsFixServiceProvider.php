@@ -4,8 +4,8 @@ namespace ExtendedBreadFormFieldsFix;
 
 use TCG\Voyager\Facades\Voyager;
 use Illuminate\Support\ServiceProvider;
-use ExtendedBreadFormFieldsFix\FormFields\MultipleImagesWithAttrsFormField;
-use ExtendedBreadFormFieldsFix\FormFields\KeyValueJsonFormField;
+use Cristianhr\ExtBreadFieldsFix\FormFields\MultipleImagesWithAttrsFormField;
+use Cristianhr\ExtBreadFieldsFix\FormFields\KeyValueJsonFormField;
 
 class ExtendedBreadFormFieldsFixServiceProvider extends ServiceProvider
 {
@@ -31,12 +31,12 @@ class ExtendedBreadFormFieldsFixServiceProvider extends ServiceProvider
 
         $this->app->bind(
             'TCG\Voyager\Http\Controllers\VoyagerBaseController',
-            'ExtendedBreadFormFieldsFix\Controllers\ExtendedBreadFormFieldsFixController'
+            'Cristianhr\ExtBreadFieldsFix\Controllers\ExtendedBreadFormFieldsFixController'
         );
 
         $this->app->bind(
             'TCG\Voyager\Http\Controllers\VoyagerMediaController',
-            'ExtendedBreadFormFieldsFix\Controllers\ExtendedBreadFormFieldsFixMediaController'
+            'Cristianhr\ExtBreadFieldsFix\Controllers\ExtendedBreadFormFieldsFixMediaController'
         );
     }
 }

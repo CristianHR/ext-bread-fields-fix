@@ -1,13 +1,13 @@
 <?php
 
-namespace ExtendedBreadFormFieldsFix\Controllers;
+namespace Cristianhr\ExtBreadFieldsFix\Controllers;
 
 use Illuminate\Http\Request;
 use TCG\Voyager\Http\Controllers\VoyagerBaseController;
 use TCG\Voyager\Http\Controllers\Controller;
 use TCG\Voyager\Facades\Voyager;
-use ExtendedBreadFormFieldsFix\ContentTypes\MultipleImagesWithAttrsContentType;
-use ExtendedBreadFormFieldsFix\ContentTypes\KeyValueJsonContentType;
+use Cristianhr\ExtBreadFieldsFix\ContentTypes\MultipleImagesWithAttrsContentType;
+use Cristianhr\ExtBreadFieldsFix\ContentTypes\KeyValueJsonContentType;
 
 class ExtendedBreadFormFieldsFixController extends VoyagerBaseController
 {

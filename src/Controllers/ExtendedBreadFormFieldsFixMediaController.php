@@ -1,6 +1,6 @@
 <?php
 
-namespace ExtendedBreadFormFieldsFix\Controllers;
+namespace Cristianhr\ExtBreadFieldsFix\Controllers;
 
 use Exception;
 use Illuminate\Http\Request;
