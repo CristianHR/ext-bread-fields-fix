@@ -1,6 +1,6 @@
 <?php
 
-namespace ExtendedBreadFormFieldsFix;
+namespace Cristianhr\ExtendedBreadFormFieldsFix;
 
 use TCG\Voyager\Facades\Voyager;
 use Illuminate\Support\ServiceProvider;
